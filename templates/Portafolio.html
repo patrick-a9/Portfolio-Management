@@ -42,7 +42,12 @@
             <h2>Creación de Portafolio</h2>
             <!-- Contenido del portafolio -->
             <p>Bienvenido al sistema. Aquí puedes gestionar tu portafolio.</p>
-            
+            <h3>Tus Portafolios</h3>
+            <ul>
+                {% for portfolio in user_portfolios %}
+                    <li>Portafolio {{ portfolio[0] }}: {{ portfolio[1] }}</li>
+                {% endfor %}
+            </ul>
             <h3>Tickers de las Acciones</h3>
             <form id="portfolioForm" onsubmit="submitPortfolio(event)">
                 <label for="numActions">Número de Acciones:</label>

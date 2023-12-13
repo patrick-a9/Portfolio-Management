@@ -13,11 +13,33 @@ tickers_list = []
 def inicio():
     """Ruta para la página de inicio.
 
-    Renderiza la plantilla 'Portafolio.html'.
+    Renderiza la plantilla 'Portafolio.html' con la información de los portafolios del usuario.
 
     Returns:
-    render_template: Plantilla 'Portafolio.html'."""
-    return render_template('Portafolio.html')
+    render_template: Plantilla 'Portafolio.html'.
+    """
+    # Verificar la autenticación del usuario
+    if 'user_id' not in session:
+        return render_template('Portafolio.html', user_portfolios=[])
+
+    user_id = session['user_id']
+
+    # Conectar a la base de datos
+    conn = sqlite3.connect('api.sqlite')
+    c = conn.cursor()
+
+    try:
+        # Obtener los portafolios asociados al usuario
+        c.execute('SELECT id, tickers FROM Tickers WHERE user_id = ?', (user_id,))
+        user_portfolios = c.fetchall()
+
+        return render_template('Portafolio.html', user_portfolios=user_portfolios)
+    except Exception as e:
+        # Manejar errores aquí, por ejemplo, registrándolos en la consola
+        print(f'Error al obtener portafolios: {e}')
+        return render_template('Portafolio.html', user_portfolios=[])
+    finally:
+        conn.close()
 
 @app.route('/create_portfolio', methods=['POST'])
 def create_portfolio():
