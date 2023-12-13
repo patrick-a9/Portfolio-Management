@@ -73,3 +73,21 @@ ul li {
 ul li:hover {
     background-color: #45a049;
 }
+
+#resultadosContainer {
+    float: right;
+    margin-left: 20px; /* Ajusta el margen izquierdo según sea necesario */
+    width: 40%; /* Ajusta el ancho según sea necesario */
+}
+
+#actionRegistrationContainer {
+    float: left;
+    width: 50%; /* Ajusta el ancho según sea necesario */
+}
+
+/* Estilo adicional para hacer que ambos contenedores ocupen el 100% del ancho */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}

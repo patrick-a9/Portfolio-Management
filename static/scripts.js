@@ -76,8 +76,8 @@ async function submitPortfolio(event) {
 }
 
 async function login() {
-    const username = 'demo'; // Reemplaza con el valor del campo de nombre de usuario
-    const password = 'demo'; // Reemplaza con el valor del campo de contraseña
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
 
     const data = {
         username: username,
@@ -153,6 +153,7 @@ async function register() {
 }
 
 function showPortfolio() {
+    
     document.getElementById('loginContainer').style.display = 'none';
     document.getElementById('registerContainer').style.display = 'none';
     document.getElementById('portfolioContainer').style.display = 'block';
