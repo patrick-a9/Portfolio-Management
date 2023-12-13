@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='scripts.js') }}" defer></script>
+    <title>Sistema de Usuarios y Portafolios</title>
+</head>
+<body>
+    <div class="container">
+        <div id="loginContainer">
+            <h2>Iniciar Sesión</h2>
+            <form id="loginForm">
+                <label for="username">Usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <br>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="button" onclick="login()">Iniciar Sesión</button>
+            </form>
+        </div>
+
+        <div id="registerContainer">
+            <h2>Registrarse</h2>
+            <form id="registerForm">
+                <label for="newMail">Nuevo Mail:</label>
+                <input type="text" id="newMail" name="newMail" required>
+                <br>
+                <label for="newUsername">Nuevo Usuario:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+                <br>
+                <label for="newPassword">Nueva Contraseña:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+                <br>
+                <button type="button" onclick="register()">Registrarse</button>
+            </form>
+        </div>
+
+        <div id="portfolioContainer" style="display: none;">
+            <h2>Creación de Portafolio</h2>
+            <!-- Contenido del portafolio -->
+            <p>Bienvenido al sistema. Aquí puedes gestionar tu portafolio.</p>
+            
+            <h3>Tickers de las Acciones</h3>
+            <form id="portfolioForm" onsubmit="submitPortfolio(event)">
+                <label for="numActions">Número de Acciones:</label>
+                <input type="number" id="numActions" min="1" required>
+                <div id="actionInputs" class="action-container"></div>
+                <button onclick="generateActionInputs()">Generar Acciones</button>
+                <button onclick="submitPortfolio()">Crear Portafolio</button>
+            </form>
+            <button onclick="resetForm()">Restablecer</button>
+            <button onclick="logout()">Cerrar Sesión</button>
+        </div>
+        
+        <div id="actionRegistrationContainer" style="display: none;">
+            <h2>Registro de Acciones</h2>
+            <!-- Contenido del registro de acciones -->
+            <p>Esta es la sección de registro de acciones.</p>
+            <!-- Puedes agregar formularios, campos de entrada y otros elementos aquí -->
+            <button onclick="logout()">Cerrar Sesión</button>
+        </div>
+    </div>
+</body>
+</html>
