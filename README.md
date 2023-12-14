@@ -1,6 +1,7 @@
 # Proyecto de Sistema de Usuarios y Portafolios
 
-Este proyecto implementa un sistema básico de usuarios y portafolios utilizando Flask como framework web y SQLite como base de datos. Además, incluye funcionalidades para la optimización de carteras y la visualización de datos financieros.
+Este proyecto implementa un sistema básico de usuarios y portafolios utilizando Flask como framework web y SQLite como base de datos además de usar web scraping sobre una pagina financera. Además, incluye funcionalidades para la optimización de carteras y la visualización de datos financieros.
+
 
 ## Requisitos
 
