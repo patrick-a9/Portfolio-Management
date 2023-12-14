@@ -28,18 +28,15 @@ pip install -r requirements.txt
 
 ## Ejecución página web
 1. **Registrarse**
-> * LLenar el formulario de registro
-
+> * LLenar el formulario de registro 
 > [![registro.png](https://i.postimg.cc/kgjFHScF/registro.png)](https://postimg.cc/K1MMkRCR)
 
 2. **Ingresar al sistema**
 > * Acceder con tu cuenta existente
-
 >[![logeo.png](https://i.postimg.cc/YqH3LM0g/logeo.png)](https://postimg.cc/PNSZBGmr)
 
 3.**Configurar tu portafolio**
 > * Indica la cantidad deseada de acciones en tu portafolio.
-
 >[![portafolio.png](https://i.postimg.cc/zfVSYf2m/portafolio.png)](https://postimg.cc/yJCSF7zn)
 
 4. **Ingresar los Tickers de Acciones**
@@ -51,7 +48,6 @@ pip install -r requirements.txt
 
 5. **Crear Portafolio**
 > * Haz clic en el botón **crear portafolio** para registrarlo.
-
 >[![pcreado.png](https://i.postimg.cc/zXFkn6HQ/pcreado.png)](https://postimg.cc/4mntG85v)
 
 6. **Cerrar Sesión**
@@ -73,9 +69,18 @@ pip install -r requirements.txt
 > * **Tablas**
 >> [![resultados2.png](https://i.postimg.cc/fyjYfSyd/resultados2.png)](https://postimg.cc/H8nJpxQW)
 > * **Graficos**
+>> * Un gráfico de matriz de covarianza de los rendimientos de tickers es una representación visual que muestra las relaciones de covarianza entre los rendimientos de diferentes activos financieros, representados por sus tickers o símbolos de identificación en el mercado. Este tipo de gráfico es comúnmente utilizado en el análisis de carteras y gestión de riesgos en finanzas.
+Aquí hay algunas características clave de un gráfico de matriz de covarianza de rendimientos de tickers:
 >> [![g1.png](https://i.postimg.cc/qq8xDZbz/g1.png)](https://postimg.cc/bSwnsLjh)
+>>> * Aquí hay algunas características clave de un gráfico de matriz de covarianza de rendimientos de tickers:
+>>>> * **Eje de las etiquetas (tickers)**: En un lado de la matriz, se enumeran los tickers de los activos financieros incluidos en el análisis. Pueden ser acciones, bonos, fondos u otros instrumentos financieros.
+>>>> * **Celdas de la matriz**: Cada celda de la matriz representa la covarianza entre los rendimientos de dos activos particulares. La covarianza mide cómo se mueven dos activos en relación el uno al otro. Un valor positivo indica una relación positiva (ambos activos tienden a moverse en la misma dirección), mientras que un valor negativo indica una relación negativa (los activos tienden a moverse en direcciones opuestas).
+>>>> * **Coloración o sombreado**: Para facilitar la interpretación visual, las celdas de la matriz a menudo se sombrean o colorean de acuerdo con los valores de covarianza. Por ejemplo, celdas más oscuras pueden indicar una mayor covarianza (mayor correlación) entre los rendimientos, mientras que celdas más claras pueden indicar una menor covarianza.
+>>>> * **Diagonal principal**: La diagonal principal de la matriz muestra la covarianza de cada activo consigo mismo, lo cual siempre es igual a la varianza del rendimiento de ese activo.
+
 >> [![g2.png](https://i.postimg.cc/tRPkgYqp/g2.png)](https://postimg.cc/yW1cQ63b)
->> [![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
+>> [![Picture17.png](https://i.postimg.cc/VNPKB7xh/Picture17.png)](https://postimg.cc/SnVLmGNL)
+>>[![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
 
 ### Comentarios
 * Si tienes más de un portafolio creado tambien se mostrará es información
