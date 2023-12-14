@@ -77,4 +77,8 @@ pip install -r requirements.txt
 >> [![g2.png](https://i.postimg.cc/tRPkgYqp/g2.png)](https://postimg.cc/yW1cQ63b)
 >> [![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
 
+### Comentarios
+* Si tienes más de un portafolio creado tambien se mostrará es información
+* Puedes identificar tu portafolio a través del ID, por ejemplo: ID 1 equivale a Portafolio 1
+
 
