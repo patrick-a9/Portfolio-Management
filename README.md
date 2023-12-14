@@ -12,4 +12,5 @@ pip install -r requirements.txt
 
 
 # Pasos para ejecutar el programa
-[![Esta es una imagen de ejemplo](https://drive.google.com/uc?id=1HS0d8rfCm79wU2wqvXCKvkvgfHNa0LJe)]("https://drive.google.com/uc?id=1HS0d8rfCm79wU2wqvXCKvkvgfHNa0LJe")
+[url=https://postimg.cc/Hc25YRRz][img]https://i.postimg.cc/Hc25YRRz/ejecuci-n-de-ana-lis.png[/img][/url] [url=https://postimg.cc/bSwnsLjh][img]https://i.postimg.cc/bSwnsLjh/g1.png[/img][/url]
+
