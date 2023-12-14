@@ -28,15 +28,18 @@ pip install -r requirements.txt
 
 ## Ejecución página web
 1. **Registrarse**
-> * LLenar el formulario de registro 
+> * LLenar el formulario de registro
+
 > [![registro.png](https://i.postimg.cc/kgjFHScF/registro.png)](https://postimg.cc/K1MMkRCR)
 
 2. **Ingresar al sistema**
 > * Acceder con tu cuenta existente
+
 >[![logeo.png](https://i.postimg.cc/YqH3LM0g/logeo.png)](https://postimg.cc/PNSZBGmr)
 
 3.**Configurar tu portafolio**
 > * Indica la cantidad deseada de acciones en tu portafolio.
+
 >[![portafolio.png](https://i.postimg.cc/zfVSYf2m/portafolio.png)](https://postimg.cc/yJCSF7zn)
 
 4. **Ingresar los Tickers de Acciones**
@@ -48,6 +51,7 @@ pip install -r requirements.txt
 
 5. **Crear Portafolio**
 > * Haz clic en el botón **crear portafolio** para registrarlo.
+
 >[![pcreado.png](https://i.postimg.cc/zXFkn6HQ/pcreado.png)](https://postimg.cc/4mntG85v)
 
 6. **Cerrar Sesión**
@@ -69,8 +73,9 @@ pip install -r requirements.txt
 > * **Tablas**
 >> [![resultados2.png](https://i.postimg.cc/fyjYfSyd/resultados2.png)](https://postimg.cc/H8nJpxQW)
 > * **Graficos**
+>> * **MATRIZ DE COVARIANZA**
 >> * Un gráfico de matriz de covarianza de los rendimientos de tickers es una representación visual que muestra las relaciones de covarianza entre los rendimientos de diferentes activos financieros, representados por sus tickers o símbolos de identificación en el mercado. Este tipo de gráfico es comúnmente utilizado en el análisis de carteras y gestión de riesgos en finanzas.
-Aquí hay algunas características clave de un gráfico de matriz de covarianza de rendimientos de tickers:
+
 >> [![g1.png](https://i.postimg.cc/qq8xDZbz/g1.png)](https://postimg.cc/bSwnsLjh)
 >>> * Aquí hay algunas características clave de un gráfico de matriz de covarianza de rendimientos de tickers:
 >>>> * **Eje de las etiquetas (tickers)**: En un lado de la matriz, se enumeran los tickers de los activos financieros incluidos en el análisis. Pueden ser acciones, bonos, fondos u otros instrumentos financieros.
