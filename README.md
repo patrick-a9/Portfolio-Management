@@ -66,7 +66,7 @@ pip install -r requirements.txt
 > [![Picture15.png](https://i.postimg.cc/rpHLccx0/Picture15.png)](https://postimg.cc/67CPLkHt)
 
 ## Ejecución del Optimizador de Portafolios
-1. Ejecuta el script **resultados.py**
+1. Ejecuta el script **optimizador.py**
 2. Al ejecutarse, se solicitará tu usuario y contraseña con los que te registraste en la página web.
 > [![ejecuci-n-de-ana-lis.png](https://i.postimg.cc/prNBZtBw/ejecuci-n-de-ana-lis.png)](https://postimg.cc/Hc25YRRz)
 3. El sistema generará tablas detalladas en la terminal y presentará gráficos que ilustran el rendimiento de todos tus portafolios creados en una nueva ventana.
