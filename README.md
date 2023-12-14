@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 >[![logeo.png](https://i.postimg.cc/YqH3LM0g/logeo.png)](https://postimg.cc/PNSZBGmr)
 
-3.**Configurar tu portafolio**
+3. **Configurar tu portafolio**
 > * Indica la cantidad deseada de acciones en tu portafolio.
 
 >[![portafolio.png](https://i.postimg.cc/zfVSYf2m/portafolio.png)](https://postimg.cc/yJCSF7zn)
