@@ -170,3 +170,50 @@ function resetForm() {
     document.getElementById('portfolioForm').reset();
     document.getElementById('actionInputs').innerHTML = '';
 }
+
+function scrollToTop() {
+    // Obtener la posición actual de desplazamiento
+    const currentPosition = window.scrollY;
+
+    // Calcular la posición a la que se debe desplazar (en este caso, la parte superior)
+    const targetPosition = 0;
+
+    // Calcular la distancia que se debe desplazar en cada paso
+    const distance = targetPosition - currentPosition;
+
+    // Duración del desplazamiento suave (en milisegundos)
+    const duration = 500;
+
+    // Hora de inicio del desplazamiento
+    let startTime;
+
+    // Función de animación
+    function animate(currentTime) {
+        if (!startTime) startTime = currentTime;
+
+        // Calcular el tiempo transcurrido desde el inicio
+        const elapsedTime = currentTime - startTime;
+
+        // Calcular la nueva posición de desplazamiento
+        const newPosition = easeInOut(elapsedTime, currentPosition, distance, duration);
+
+        // Desplazar a la nueva posición
+        window.scrollTo(0, newPosition);
+
+        // Continuar la animación si no ha alcanzado la duración total
+        if (elapsedTime < duration) {
+            requestAnimationFrame(animate);
+        }
+    }
+
+    // Función de desplazamiento suave (ease-in-out)
+    function easeInOut(t, b, c, d) {
+        t /= d / 2;
+        if (t < 1) return (c / 2) * t * t + b;
+        t--;
+        return (-c / 2) * (t * (t - 2) - 1) + b;
+    }
+
+    // Iniciar la animación
+    requestAnimationFrame(animate);
+}

@@ -1,6 +1,6 @@
+import sqlite3
 from flask import Flask, render_template, request, jsonify, session
 from flask_session import Session
-from resultados import obtener_tablas_por_id
 import sqlite3
 
 app = Flask(__name__)
@@ -81,20 +81,6 @@ def create_portfolio():
         return jsonify({'message': 'Error during portfolio creation', 'error': str(e)}), 500
     finally:
         conn.close()
-
-@app.route('/resultados/<int:user_id>')
-def mostrar_resultados(user_id):
-    # Verificar la autenticación del usuario
-    if 'user_id' not in session or session['user_id'] != user_id:
-        return redirect(url_for('/'))  # Redirige al inicio si no está autenticado o no tiene permisos
-
-    # Obtener tablas por ID de usuario con unpacking de tuplas
-    covarianza, estadisticas, optimizacion = obtener_tablas_por_id(user_id)
-
-    # Imprimir el valor de optimizacion para verificar si está definido correctamente
-    print("Valor de optimizacion:", optimizacion)
-
-    return render_template('Portafolio.html', covarianza=covarianza, estadisticas=estadisticas, optimizacion=optimizacion)
 
 # Ruta para registro de usuarios
 @app.route('/register', methods=['POST'])
