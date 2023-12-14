@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 5. **Crear Portafolio**
 > * Haz clic en el botón **crear portafolio** para registrarlo.
+
 >[![pcreado.png](https://i.postimg.cc/zXFkn6HQ/pcreado.png)](https://postimg.cc/4mntG85v)
 
 6. **Cerrar Sesión**
@@ -74,6 +75,6 @@ pip install -r requirements.txt
 > * **Graficos**
 >> [![g1.png](https://i.postimg.cc/qq8xDZbz/g1.png)](https://postimg.cc/bSwnsLjh)
 >> [![g2.png](https://i.postimg.cc/tRPkgYqp/g2.png)](https://postimg.cc/yW1cQ63b)
->>[![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
+>> [![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
 
 
