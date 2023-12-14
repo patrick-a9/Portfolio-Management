@@ -73,7 +73,7 @@ pip install -r requirements.txt
 > * **Tablas**
 >> [![resultados2.png](https://i.postimg.cc/fyjYfSyd/resultados2.png)](https://postimg.cc/H8nJpxQW)
 > * **Graficos**
->> * **MATRIZ DE COVARIANZA**
+>> **MATRIZ DE COVARIANZA**
 >> * Un gráfico de matriz de covarianza de los rendimientos de tickers es una representación visual que muestra las relaciones de covarianza entre los rendimientos de diferentes activos financieros, representados por sus tickers o símbolos de identificación en el mercado. Este tipo de gráfico es comúnmente utilizado en el análisis de carteras y gestión de riesgos en finanzas.
 
 >> [![g1.png](https://i.postimg.cc/qq8xDZbz/g1.png)](https://postimg.cc/bSwnsLjh)
@@ -83,9 +83,30 @@ pip install -r requirements.txt
 >>>> * **Coloración o sombreado**: Para facilitar la interpretación visual, las celdas de la matriz a menudo se sombrean o colorean de acuerdo con los valores de covarianza. Por ejemplo, celdas más oscuras pueden indicar una mayor covarianza (mayor correlación) entre los rendimientos, mientras que celdas más claras pueden indicar una menor covarianza.
 >>>> * **Diagonal principal**: La diagonal principal de la matriz muestra la covarianza de cada activo consigo mismo, lo cual siempre es igual a la varianza del rendimiento de ese activo.
 
->> [![g2.png](https://i.postimg.cc/tRPkgYqp/g2.png)](https://postimg.cc/yW1cQ63b)
+>> **GRÁFICO DE PESOS ÓPTIMOS**
+>> * Un gráfico de pesos óptimos de los rendimientos de tickers representa visualmente la distribución de asignación de pesos ideales o óptimos en una cartera de activos financieros, identificados por sus tickers o símbolos en el mercado. Este tipo de gráfico es valioso en la gestión de carteras y ayuda a los inversores a entender cómo distribuir sus recursos entre diferentes activos para lograr ciertos objetivos, como maximizar el rendimiento o minimizar el riesgo.
+
 >> [![Picture17.png](https://i.postimg.cc/VNPKB7xh/Picture17.png)](https://postimg.cc/SnVLmGNL)
+>>> * Aquí hay algunas características clave de un gráfico de pesos óptimos de tickers:
+>>>> * **Eje X (horizontal):** Cada tick en el eje X representa un activo financiero específico identificado por su ticker. Este eje muestra los diferentes tickers incluidos en la cartera.
+>>>> * **Eje Y (vertical):**  La suma de todos los pesos en la cartera debería ser igual a 1 (o 100% si se expresa como porcentaje), ya que representa la totalidad de la asignación de activos.
+>>>> * **Suma de pesos:** Para cada ticker, se representa una barra en el gráfico, ubicado en la posición correspondiente en el eje X y con una altura según la media de sus rendimientos en el eje Y.
+
+>> **GRÁFICO DE MEDIAS**
+>> * Un gráfico de medias de tickers presenta visualmente las medias (promedios) de los rendimientos de diferentes activos financieros, identificados por sus tickers o símbolos en el mercado.
+
+>> [![g2.png](https://i.postimg.cc/tRPkgYqp/g2.png)](https://postimg.cc/yW1cQ63b)
+>>> * Aquí hay algunas características clave de un gráfico de medias de tickers:
+>>>> * **Eje X (horizontal):** Cada tick en el eje X representa un activo financiero específico identificado por su ticker. Este eje muestra los diferentes activos incluidos en el análisis.
+>>>> * **Eje Y (vertical):** El eje Y muestra las medias de los rendimientos para cada activo. Cada punto en el eje Y corresponde a la media de los rendimientos de un activo financiero particular.
+
+>> **GRÁFICO DE FRONTERA EFICIENTE**
+>> * Un gráfico de frontera eficiente, también conocido como gráfico de frontera de cartera eficiente, es una representación visual de las combinaciones óptimas de activos financieros que ofrecen el máximo rendimiento esperado para un nivel de riesgo dado o el mínimo riesgo para un nivel dado de rendimiento. Este gráfico es una herramienta clave en la teoría moderna de carteras y es utilizado para ayudar a los inversores a tomar decisiones informadas sobre cómo asignar sus activos.
+
 >>[![g3.png](https://i.postimg.cc/9M9dznjJ/g3.png)](https://postimg.cc/CBFBQJ5q)
+>>> * Aquí hay algunas características clave de un gráfico de frontera eficiente de tickers:
+>>>> * **Eje X (horizontal):** Representa el rendimiento esperado de la cartera. Cuanto más arriba en el eje Y, mayor es el rendimiento.
+>>>> * **Puntos coloreados:** Cada punto en el gráfico representa una cartera específica. Estos puntos están coloreados según el ratio de Sharpe, que es una medida que relaciona el rendimiento de una cartera con su riesgo (volatilidad). Los colores indican diferentes niveles de eficiencia en términos de riesgo-rendimiento.
 
 ### Comentarios
 * Si tienes más de un portafolio creado tambien se mostrará es información
