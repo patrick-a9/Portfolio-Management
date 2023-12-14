@@ -6,7 +6,8 @@ Este proyecto implementa un sistema básico de usuarios y portafolios utilizando
 ## Requisitos
 
 Para ejecutar este proyecto, es necesario tener instaladas las siguientes bibliotecas de Python. Se recomienda utilizar un entorno virtual para evitar conflictos con otras dependencias del sistema.
-
+# Pasos para ejecutar el programa
+[![ejecuci-n-de-ana-lis.png](https://i.postimg.cc/prNBZtBw/ejecuci-n-de-ana-lis.png)](https://postimg.cc/Hc25YRRz)
 ```bash
 pip install -r requirements.txt
 
