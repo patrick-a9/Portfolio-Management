@@ -28,15 +28,18 @@ pip install -r requirements.txt
 
 ## Ejecución página web
 1. **Registrarse**
-> * LLenar el formulario de registro 
+> * LLenar el formulario de registro
+
 > [![registro.png](https://i.postimg.cc/kgjFHScF/registro.png)](https://postimg.cc/K1MMkRCR)
 
 2. **Ingresar al sistema**
 > * Acceder con tu cuenta existente
+
 >[![logeo.png](https://i.postimg.cc/YqH3LM0g/logeo.png)](https://postimg.cc/PNSZBGmr)
 
 3.**Configurar tu portafolio**
 > * Indica la cantidad deseada de acciones en tu portafolio.
+
 >[![portafolio.png](https://i.postimg.cc/zfVSYf2m/portafolio.png)](https://postimg.cc/yJCSF7zn)
 
 4. **Ingresar los Tickers de Acciones**
