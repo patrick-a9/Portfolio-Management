@@ -9,3 +9,10 @@ Para ejecutar este proyecto, es necesario tener instaladas las siguientes biblio
 
 ```bash
 pip install -r requirements.txt
+
+
+# Pasos para ejecutar el programa
+<p align="left">
+  <img src="https://drive.google.com/uc?id=1HS0d8rfCm79wU2wqvXCKvkvgfHNa0LJe" alt="Diagrama">
+  <p>Árbol binario de búsqueda</p>
+</p>
