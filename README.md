@@ -12,5 +12,5 @@ pip install -r requirements.txt
 
 
 # Pasos para ejecutar el programa
-[url=https://postimg.cc/Hc25YRRz][img]https://i.postimg.cc/Hc25YRRz/ejecuci-n-de-ana-lis.png[/img][/url] [url=https://postimg.cc/bSwnsLjh][img]https://i.postimg.cc/bSwnsLjh/g1.png[/img][/url]
+[![ejecuci-n-de-ana-lis.png](https://i.postimg.cc/prNBZtBw/ejecuci-n-de-ana-lis.png)](https://postimg.cc/Hc25YRRz)
 
