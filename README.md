@@ -19,7 +19,7 @@ Para ejecutar este proyecto, es necesario tener instaladas las siguientes biblio
 ```bash
 pip install -r requirements.txt
 ```
-#Ejecución
+# Ejecución
 ## Ejecución General (base de datos y aplicación web)
 
 1. Ejecuta el script **base.py** para inicializar y crear la base de datos.
